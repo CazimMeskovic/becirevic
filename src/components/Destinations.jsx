@@ -34,36 +34,36 @@ const Destinations1 = () => {
   }, []);
 /* max-w-[1240px]  */
   return (
-    <div className='w-full mx-auto py-16 px-4 text-center'>
+    <div name='destination' className='w-full mx-auto py-16 px-4 text-center'>
       <h1>Superior service</h1>
       <p className='py-4'>Diamond M Apartman</p>
       <div className='grid grid-rows-none cursor-pointer  md:grid-cols-5 py-4 gap-2 md:gap-4'>
      <img
-          className='w-full h-full  object-cover col-span-2 md:col-span-3 row-span-2'
+          className='w-full h-full hover:p-4 object-cover col-span-2 md:col-span-3 row-span-2'
           src={sl1}
           alt="/"
           onClick={() => handleImageClick(sl1)}
         />
         <img
-          className='w-full h-full object-cover'
+          className='w-full h-full object-cover hover:p-4'
           src={sl2}
           alt="/"
           onClick={() => handleImageClick(sl2)}
         />
         <img
-          className='w-full h-full object-cover'
+          className='w-full h-full object-cover hover:p-4'
           src={sl3}
           alt="/"
           onClick={() => handleImageClick(sl3)}
         />
         <img
-          className='w-full h-full object-cover'
+          className='w-full h-full object-cover hover:p-4'
           src={sl4}
           alt="/"
           onClick={() => handleImageClick(sl4)}
         />
         <img
-          className='w-full h-full object-cover'
+          className='w-full h-full object-cover hover:p-4'
           src={sl6}
           alt="/"
           onClick={() => handleImageClick(sl6)}

@@ -4,7 +4,7 @@ import { MdOutlineTravelExplore } from 'react-icons/md';
 
 const Search = () => {
   return (
-    <div className='max-w-[1240px] mx-auto grid lg:grid-cols-3 gap-4 px-4 py-16'>
+    <div name='search' className='max-w-[1240px] mx-auto grid lg:grid-cols-3 gap-4 px-4 py-16'>
       <div className='lg:col-span-2 flex flex-col justify-evenly'>
         <div>
           <h2>Welcome to Dalija and Diamond M Apartments, your ultimate destination for luxury and comfort. </h2>
@@ -55,10 +55,10 @@ const Search = () => {
           <div className='flex flex-col my-2'>
             <label>Destination</label>
             <select className='border rounded-md p-2'>
-              <option>Grande Antigua</option>
-              <option>Key West</option>
-              <option>Maldives</option>
-              <option>Cozumel</option>
+              <option>Destination1</option>
+              <option>FeaturedCard</option>
+              <option>Hero</option>
+             {/*  <option>Cozumel</option> */}
             </select>
           </div>
           <div className='flex flex-col my-4'>
@@ -69,7 +69,7 @@ const Search = () => {
             <label>Check-Out</label>
             <input className='border rounded-md p-2' type="date" />
           </div>
-          <button className='w-full my-4'>Rates & Availabilities</button>
+          <button className='hover:mt-2 w-full my-4'>Rates & Availabilities</button>
         </form>
       </div>
     </div>

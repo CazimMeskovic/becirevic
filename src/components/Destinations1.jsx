@@ -18,36 +18,36 @@ const Destinations1 = () => {
   };
 
   return (
-    <div className='max-w-[1240px] mx-auto py-16 px-4 text-center'>
+    <div name='destination1' className='max-w-[1240px] mx-auto py-16 px-4 text-center'>
       <h1>Superior service All</h1>
       <p className='py-4'>Dalija Apartman</p>
       <div className='grid grid-rows-none cursor-pointer md:grid-cols-5 py-4 gap-2 md:gap-4'>
         <img
-          className='w-full h-full  object-cover col-span-2 md:col-span-3 row-span-2'
+          className='w-full h-full  object-cover hover:p-4 hover:p-4 col-span-2 md:col-span-3 row-span-2'
           src={sl1}
           alt="/"
           onClick={() => handleImageClick(sl1)}
         />
         <img
-          className='w-full h-full object-cover'
+          className='w-full h-full object-cover hover:p-4'
           src={sl2}
           alt="/"
           onClick={() => handleImageClick(sl2)}
         />
         <img
-          className='w-full h-full object-cover'
+          className='w-full h-full object-cover hover:p-4'
           src={sl3}
           alt="/"
           onClick={() => handleImageClick(sl3)}
         />
         <img
-          className='w-full h-full object-cover'
+          className='w-full h-full object-cover hover:p-4'
           src={sl4}
           alt="/"
           onClick={() => handleImageClick(sl4)}
         />
         <img
-          className='w-full h-full object-cover'
+          className='w-full h-full object-cover hover:p-4'
           src={sl6}
           alt="/"
           onClick={() => handleImageClick(sl6)}
@@ -57,7 +57,7 @@ const Destinations1 = () => {
         <div className="w-full h-full fixed inset-0 flex justify-center items-center bg-black bg-opacity-75">
           <div className="relative">
             <button
-              className="absolute top-2 right-2 p-2 text-white bg-red-500 rounded-full"
+              className="absolute mr-[10%] mt-[25%]  top-2 right-2 p-2 text-white bg-red-500 rounded-full"
               onClick={handleCloseOverlay}
             >
               X

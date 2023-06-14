@@ -10,12 +10,12 @@ import { featured } from "../Data"
 const FeaturedCard = () => {
   return (
     <>
-      <div className='content bg-sky-500 grid md:grid-cols-2 gap-2 grid-cols-1 md:h-[100vh] mtop'>
+      <div name='featuredCard' className='content bg-sky-500 grid md:grid-cols-2 gap-2 grid-cols-1 md:h-[100vh] mtop'>
         {featured.map((items, index) => (
 
           < div className='box' key={index} >
 
-            <img className="rounded-lg hover:bg-gray-900/30  ml-[5%] mt-[7%] w-[90%] h-[70%]" src={items.cover} alt='' />
+            <img className="rounded-lg hover:bg-gray-900/30 hover:p-4  ml-[5%] mt-[7%] w-[70%] h-[60%]" src={items.cover} alt='' />
 
             <div className="flex">
               <h4 className=" flex justify-around hover:bg-sky-700 bg-sky-600 rounded-md sm:ml-[8%] ml-[12%]  mt-[3%]  w-[35%] md:p-1 " >{items.name}</h4>

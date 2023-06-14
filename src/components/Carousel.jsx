@@ -36,10 +36,10 @@ const Carousel = () => {
   };
 
   return (
-    <div>
-     {/*  <h1 className='text-teal-300 text-center bg-sky-500 '>Explore the beautiful UNA</h1> */}
+    <div name='carousel'>
+       <h1 className='text-teal-300 text-center bg-sky-500 '>Explore the beautiful UNA</h1> 
     <div className='bg-gradient-to-r from-sky-500 to-indigo-500 '>
-    <h1 className='text-teal-300 text-center bg-sky-500 '>Explore the beautiful UNA</h1>
+   {/*  <h1 className='text-teal-300 text-center bg-sky-500 '>Explore the beautiful UNA</h1> */}
     <div className='max-w-[1240px] mx-auto px-4 py-16 relative flex justify-center itmes-center'>
       <BsArrowLeftSquareFill
         onClick={prevSlide}

@@ -29,12 +29,14 @@ import slika1 from "./img/apartman2/32.jpg"
 
 export const featured = [
   {
-    cover: "http://www.raftinguna.com/images/galerija-bihac/bihac-rafting-13.jpg",
+   /*  cover: "http://www.raftinguna.com/images/galerija-bihac/bihac-rafting-13.jpg", */
+    cover: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/343492266.jpg?k=a655d45f701727fab930623d62c6a725ecab59d3e27a44024af6366e28364f97&o=&hp=1",
     name: "Dalija Apartman's",
     total: "30-40 € per day",
   },
   {
-    cover: "http://www.raftinguna.com/images/galerija-bihac/bihac-rafting-16.jpg",
+    cover: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/341888653.jpg?k=46e92ff968fdf87aacd13c2d4ff07375f7ff574bcbac241dcd2cc9e19045faaa&o=&hp=1",
+   /*  cover: "http://www.raftinguna.com/images/galerija-bihac/bihac-rafting-16.jpg", */
     name: "Diamond M Apartman's",
     total: "30-40 € per day",
   },
